@@ -18,7 +18,6 @@
         "baseUrl": "src",
         "paths": {
             "@domain/*": ["domain/*"],
-            "@backoffice-types/*": ["types/*"],
             "@controllers/*": ["controllers/*"],
             "@services/*": ["services/*"],
             "@database/*": ["database/*"],
