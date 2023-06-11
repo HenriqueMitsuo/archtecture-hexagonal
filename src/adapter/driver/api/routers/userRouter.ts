@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { userController } from "../controllers";
 
-export function getUserRouter() {
+export function getUserRouter(): Router {
     const userRouter = Router();
 
     // https://stackoverflow.com/a/62735419

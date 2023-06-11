@@ -8,7 +8,7 @@ export class UserController {
         this.userUseCase = userUseCase;
     }
 
-    public async get(req: Request, res: Response) {
+    public async get(req: Request, res: Response): Promise<Response> {
         const result = await this.userUseCase.getUsers();
         return res.status(200).json(result);
     }
